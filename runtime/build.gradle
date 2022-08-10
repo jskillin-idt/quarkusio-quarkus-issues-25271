@@ -7,7 +7,7 @@ plugins {
 group 'org.acme' 
 version '1.0-SNAPSHOT'
 description = 'Greeting extension'
-//evaluationDependsOn(':deployment')
+evaluationDependsOn(':deployment')
 
 quarkusExtension {
     deploymentArtifact = 'greeting-extension-deployment'
